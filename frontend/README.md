@@ -1,8 +1,30 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Authentication
 
-Currently, two official plugins are available:
+User authentication using React.js as the frontend and Node.js, Express, and MongoDB as the backend. This project required the use of npm packages like JWT for token generation and bcrypt for password hashing to ensure user data security and prevent leaks to third parties.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Shikha115/authentication.git
+```
+
+Go to the project directory
+
+```bash
+  cd authentication/frontend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
